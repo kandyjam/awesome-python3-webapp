@@ -11,9 +11,6 @@ from aiohttp import web
 
 from www.apis import APIError
 
-__author__ = 'kandyjam'
-
-
 def get(path):
     """
     Define decorator @get('/path')
